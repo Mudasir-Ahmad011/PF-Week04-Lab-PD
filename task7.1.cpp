@@ -45,6 +45,7 @@ cout << "######################"<<endl;
 void playermove(int x,int y){
 gotoxy(x,y-1);
 cout << " ";
+gotoxy(x,y);
 cout << "P";
 Sleep(500);
 }
